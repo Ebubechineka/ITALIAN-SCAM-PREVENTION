@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="pgTitle">Cosa dicono i lettori &mdash; Non Farti Ingannare | Golden Vista Global</title>
+<meta id="pgDesc" name="description" content="Cinque storie di lettori che hanno riconosciuto la truffa in tempo, raccontate con le loro parole. Dal libro Non Farti Ingannare di Benito Russo.">
+<meta name="author" content="Benito Russo">
+<meta name="publisher" content="Golden Vista Global">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cosa dicono i lettori &mdash; Non Farti Ingannare">
+<meta property="og:description" content="Cinque storie di lettori che hanno riconosciuto la truffa in tempo.">
+<meta property="og:image" content="../images/cover_it.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0d2136; --navy-deep:#081627; --navy-soft:#16324d;
+  --gold:#a8812f; --gold-bright:#c9a34a; --gold-soft:#f0e3c2;
+  --paper:#fbf8f1; --paper-alt:#f4efe3; --ink:#16181d; --muted:#5c6470;
+  --line:#e6ddc7; --red:#8f2b2b;
+  --display:"Playfair Display",Georgia,serif;
+  --serif:"EB Garamond",Garamond,Georgia,serif;
+  --sans:"Inter",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:18px;line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--gold);text-decoration:none}
+h1,h2,h3,h4{font-family:var(--display);color:var(--navy);line-height:1.15;margin:0}
+p{margin:0 0 1em}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+.kicker{font-family:var(--sans);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:0 0 .6em}
+.sec{padding:78px 0;scroll-margin-top:92px}
+.sec.alt{background:var(--paper-alt)}
+.sec.navy{background:var(--navy);color:#dfe7f0}
+.sec.navy h1,.sec.navy h2,.sec.navy h3{color:#fff}
+.sec-t{font-size:clamp(1.7rem,3vw,2.5rem);margin:.3em 0 .45em}
+.lead-p{font-size:1.12rem;color:var(--muted);max-width:44em}
+.sec.navy .lead-p{color:#c3d0de}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+.imgbox img{width:100%;border-radius:8px;box-shadow:0 22px 48px rgba(13,33,54,.16)}
+.sec.navy .imgbox img{box-shadow:0 22px 48px rgba(0,0,0,.45)}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-block;font-family:var(--sans);font-weight:600;font-size:.95rem;border-radius:6px;padding:.9rem 1.45rem;text-decoration:none;transition:background .18s,color .18s,border-color .18s;border:1.5px solid transparent}
+.btn-gold{background:var(--gold);color:var(--navy-deep)}
+.btn-gold:hover{background:var(--gold-bright);color:var(--navy-deep)}
+.btn-ghost{border-color:rgba(240,227,194,.55);color:var(--gold-soft)}
+.btn-ghost:hover{background:rgba(240,227,194,.12);color:#fff}
+.btn-dark{border-color:var(--navy);color:var(--navy)}
+.btn-dark:hover{background:var(--navy);color:#fff}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-soft)}
+.btn-block{display:block;text-align:center;width:100%}
+
+/* ---------- header ---------- */
+.site-header{position:sticky;top:0;z-index:100;background:var(--navy-deep);border-bottom:1px solid rgba(168,129,47,.38)}
+.site-header .wrap{display:flex;align-items:center;gap:18px;padding-top:12px;padding-bottom:12px}
+.brand{display:flex;flex-direction:column;line-height:1.1;margin-right:auto}
+.brand .t{font-family:var(--display);color:var(--gold-soft);font-size:1.06rem;font-weight:700}
+.brand .s{font-family:var(--sans);font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.langswitch{display:inline-flex;border:1px solid rgba(240,227,194,.4);border-radius:999px;overflow:hidden;flex:none}
+.langswitch button{background:transparent;border:0;color:var(--gold-soft);font-family:var(--sans);font-size:.76rem;font-weight:700;letter-spacing:.06em;padding:.42rem .85rem;cursor:pointer}
+.langswitch button.active{background:var(--gold);color:var(--navy-deep)}
+.hdr-cta{padding:.62rem 1.1rem;font-size:.86rem}
+.mainnav{display:flex;gap:1px;flex-wrap:nowrap;overflow-x:auto;margin-left:2px}
+.mainnav a{font-family:var(--sans);font-size:.73rem;font-weight:600;color:#c6d3e1;padding:.42rem .3rem;border-radius:5px;white-space:nowrap}
+.mainnav a:hover{color:var(--gold-soft);background:rgba(240,227,194,.1)}
+.mainnav::-webkit-scrollbar{height:0}
+@media (max-width:1240px){.mainnav{display:none}}
+
+/* ---------- hero ---------- */
+.hero{background:var(--navy);color:#e6edf5;padding:64px 0 76px}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:54px;align-items:center}
+.eyebrow{font-family:var(--sans);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-bright);font-weight:600;margin:0 0 .8em}
+.hero h1{font-size:clamp(2.05rem,4.3vw,3.45rem);color:#fff;margin:0 0 .5em;letter-spacing:-.01em}
+.hero .sub{font-size:1.13rem;color:#cdd9e6;max-width:35em}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:1.6em 0 .5em}
+.cta-note{font-family:var(--sans);font-size:.76rem;color:var(--gold-bright);letter-spacing:.04em;width:100%}
+.trust{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.7em}
+.trust span{font-family:var(--sans);font-size:.74rem;font-weight:600;color:var(--gold-soft);border:1px solid rgba(200,163,74,.5);border-radius:999px;padding:.34rem .78rem}
+.cover-wrap{text-align:center}
+.cover-wrap img{width:100%;max-width:430px;margin:0 auto;border-radius:6px;box-shadow:0 34px 64px rgba(0,0,0,.5)}
+
+/* ---------- band ---------- */
+.band{background:var(--navy-soft);color:#eaf1f8;padding:0}
+.band .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:0;align-items:center;padding-top:0;padding-bottom:0}
+.band-img img{border-radius:0;box-shadow:none;width:100%;height:100%;object-fit:cover;max-height:380px}
+.band-txt{padding:52px 24px 52px 48px}
+.band-txt h3{font-size:clamp(1.4rem,2.4vw,2rem);color:#fff;margin-bottom:.4em}
+.band-txt p{color:#c3d0de;margin:0}
+
+/* ---------- problem ---------- */
+.flags{list-style:none;margin:1.4em 0;padding:0}
+.flags li{position:relative;padding-left:30px;margin-bottom:.75em}
+.flags li::before{content:"";position:absolute;left:0;top:.62em;width:9px;height:9px;background:var(--red);transform:rotate(45deg)}
+.close-line{font-family:var(--display);font-size:1.16rem;color:var(--navy);border-left:3px solid var(--gold);padding-left:18px;margin-top:1.6em}
+
+/* ---------- parts ---------- */
+.parts{display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));gap:18px;margin-top:2.2em}
+.part{background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:8px;padding:20px 22px 22px}
+.part .n{font-family:var(--sans);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.part h3{font-size:1.08rem;margin:.4em 0 .35em}
+.part p{font-size:.93rem;line-height:1.6;color:var(--muted);margin:0}
+
+/* ---------- who ---------- */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));gap:18px;margin-top:2em}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:24px}
+.card .ic{font-family:var(--display);color:var(--gold);font-size:1.5rem;line-height:1;margin-bottom:.45em}
+.card h3{font-size:1.08rem;margin:0 0 .35em}
+.card p{font-size:.94rem;color:var(--muted);margin:0}
+
+/* ---------- author ---------- */
+.author-name{font-size:clamp(1.8rem,3vw,2.4rem)}
+.author-role{font-family:var(--sans);font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:.5em 0 1em}
+.pub-line{font-family:var(--sans);font-size:.85rem;color:var(--navy);border-top:1px solid var(--line);padding-top:14px;margin-top:18px}
+
+/* ---------- reviews ---------- */
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(278px,1fr));gap:18px;margin-top:2em}
+.review{background:#fff;border:1px solid var(--line);border-radius:8px;padding:24px;display:flex;flex-direction:column;gap:12px}
+.review .stars{color:var(--gold);font-size:.95rem;letter-spacing:.15em}
+.review q{font-style:italic;color:var(--ink);quotes:"\201C" "\201D"}
+.review .who{font-family:var(--sans);font-size:.78rem;color:var(--muted);margin-top:auto}
+.sample-note{font-family:var(--sans);font-size:.76rem;color:var(--red);background:#f9efee;border:1px solid #edcfcd;border-radius:6px;padding:10px 14px;margin-top:1.4em}
+
+/* ---------- lead form ---------- */
+.lead-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:48px;align-items:center}
+.form-card{background:rgba(255,255,255,.05);border:1px solid rgba(200,163,74,.4);border-radius:10px;padding:30px 30px 26px}
+.form-card label{display:block;font-family:var(--sans);font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-bright);margin-bottom:.5em}
+.form-row{display:flex;gap:10px;flex-wrap:wrap}
+.form-card input[type=email]{flex:1 1 220px;min-width:0;font-family:var(--sans);font-size:1rem;padding:.85rem 1rem;border-radius:6px;border:1px solid rgba(240,227,194,.35);background:#fff;color:var(--ink)}
+.form-card input[type=email]:focus{outline:2px solid var(--gold-bright);outline-offset:1px}
+.form-msg{margin-top:14px;font-family:var(--sans);font-size:.88rem;border-radius:6px;padding:12px 14px;display:none}
+.form-msg.ok{display:block;background:#eef5f0;color:#1f4a34;border:1px solid #c9e0d2}
+.form-msg.bad{display:block;background:#f9efee;color:#7a2424;border:1px solid #edcfcd}
+.privacy-note{font-family:var(--sans);font-size:.76rem;color:#a9b8c8;margin-top:.9em}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+/* ---------- pricing ---------- */
+.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:2.2em}
+.price-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:32px 30px;position:relative;display:flex;flex-direction:column}
+.price-card.featured{border:2px solid var(--gold);box-shadow:0 18px 42px rgba(168,129,47,.16)}
+.ribbon{position:absolute;top:-13px;left:30px;background:var(--gold);color:var(--navy-deep);font-family:var(--sans);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.32rem .8rem;border-radius:4px}
+.price-card h3{font-size:1.3rem;margin-bottom:.5em}
+.price-line{display:flex;align-items:baseline;gap:12px;margin-bottom:1.1em}
+.price{font-family:var(--display);font-size:2.6rem;font-weight:700;color:var(--navy);line-height:1}
+.was{font-family:var(--sans);font-size:1.05rem;color:var(--muted);text-decoration:line-through}
+.price-feats{list-style:none;margin:0 0 1.6em;padding:0}
+.price-feats li{position:relative;padding-left:26px;margin-bottom:.6em;font-size:.95rem;color:var(--muted)}
+.price-feats li::before{content:"\2713";position:absolute;left:0;color:var(--gold);font-weight:700}
+.price-card .btn{margin-top:auto}
+
+/* ---------- faq ---------- */
+.faq-list{margin-top:2em;border-top:1px solid var(--line)}
+.faq-list details{border-bottom:1px solid var(--line)}
+.faq-list summary{font-family:var(--display);font-size:1.1rem;color:var(--navy);cursor:pointer;padding:20px 44px 20px 0;position:relative;list-style:none}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary::after{content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);font-family:var(--sans);font-size:1.4rem;color:var(--gold);font-weight:400}
+.faq-list details[open] summary::after{content:"\2013"}
+.faq-list .ans{padding:0 0 22px;color:var(--muted);max-width:52em}
+
+/* ---------- insights ---------- */
+.posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(288px,1fr));gap:20px;margin-top:2em}
+.post{background:#fff;border:1px solid var(--line);border-radius:8px;padding:24px;display:flex;flex-direction:column}
+.post .tag{font-family:var(--sans);font-size:.66rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:.7em}
+.post h3{font-size:1.12rem;margin-bottom:.5em}
+.post p{font-size:.93rem;color:var(--muted);flex:1}
+.post .rd{font-family:var(--sans);font-size:.84rem;font-weight:600;color:var(--gold);margin-top:.6em}
+
+/* ---------- footer ---------- */
+.site-footer{background:var(--navy-deep);color:#9fb0c2;padding:52px 0 40px;font-size:.92rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.05fr;gap:32px}
+.site-footer h4{color:var(--gold-soft);font-family:var(--display);font-size:1.05rem;margin-bottom:.6em}
+.site-footer a{color:#b9c8d8}
+.site-footer a:hover{color:var(--gold-bright)}
+.foot-links{list-style:none;margin:0;padding:0}
+.foot-links li{margin-bottom:.5em}
+.foot-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:32px}
+.foot-bottom{border-top:1px solid rgba(168,129,47,.3);margin-top:34px;padding-top:22px;font-family:var(--sans);font-size:.78rem;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}
+
+/* ---------- author profile ---------- */
+.cover2-block{display:grid;grid-template-columns:300px 1fr;gap:44px;align-items:center;margin-top:3.4em;padding-top:3em;border-top:1px solid rgba(13,33,54,.12)}
+.cover2-img img{width:100%;max-width:300px;border-radius:6px;box-shadow:0 28px 56px rgba(13,33,54,.28);display:block}
+.cover2-txt h3{font-size:1.5rem;margin:.2em 0 .5em}
+.cover2-txt p{line-height:1.7}
+.author-photo{max-width:330px}
+.author-profile{display:grid;grid-template-columns:330px 1fr;gap:48px;align-items:start}
+.portrait-frame{position:relative;background:var(--navy);border-radius:10px;padding:14px;box-shadow:0 24px 52px rgba(13,33,54,.22)}
+.portrait-frame img{width:100%;height:auto;border-radius:6px;display:block}
+.portrait-badge{position:absolute;bottom:-13px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--navy-deep);font-family:var(--sans);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.32rem .85rem;border-radius:999px;white-space:nowrap}
+.ph-note{font-family:var(--sans);font-size:.73rem;color:var(--red);background:#f9efee;border:1px solid #edcfcd;border-radius:6px;padding:9px 12px;margin-top:26px;line-height:1.5}
+.cred-list{list-style:none;margin:1.3em 0 0;padding:0;display:grid;gap:11px}
+.cred-list li{position:relative;padding-left:26px;font-size:.96rem;color:#2c313a}
+.cred-list li::before{content:"\2713";position:absolute;left:0;top:-1px;color:var(--gold);font-weight:700}
+
+/* ---------- author extras ---------- */
+.author-text{min-width:0}
+.author-name{font-family:var(--display);font-size:1.72rem;margin:.1em 0 .2em}
+.author-role{font-family:var(--sans);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2em;line-height:1.6}
+.author-quote{margin:1.6em 0;padding:18px 24px;border-left:3px solid var(--gold);background:var(--paper);border-radius:0 8px 8px 0}
+.author-quote p{font-family:var(--serif);font-size:1.08rem;line-height:1.66;color:#242a33;margin:0}
+.author-quote cite{display:block;margin-top:.8em;font-family:var(--sans);font-size:.72rem;font-style:normal;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.portrait-cap{font-family:var(--sans);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);text-align:center;margin-top:16px;line-height:1.5}
+.roles-block{margin-top:3.4em}
+.roles-h{font-family:var(--display);font-size:clamp(1.35rem,2.4vw,1.85rem);color:var(--navy);text-align:center;margin:0}
+.roles-sub{text-align:center;color:var(--muted);font-family:var(--sans);font-size:.88rem;margin:.55em 0 2em}
+.exp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(196px,1fr));gap:16px}
+.exp-card{background:#fff;border:1px solid var(--line);border-radius:9px;padding:24px 20px;box-shadow:0 4px 16px rgba(13,33,54,.05);transition:transform .2s,box-shadow .2s,border-color .2s}
+.exp-card:hover{transform:translateY(-3px);box-shadow:0 18px 36px rgba(13,33,54,.13);border-color:var(--gold-bright)}
+.exp-n{font-family:var(--display);font-weight:900;font-size:1.5rem;color:var(--gold-bright);line-height:1}
+.exp-card h4{font-family:var(--sans);font-size:.92rem;font-weight:700;color:var(--navy);margin:.6em 0 .45em}
+.exp-card p{font-size:.85rem;line-height:1.56;color:var(--muted);margin:0}
+.scamhelp{margin-top:3em;background:var(--navy);border-radius:12px;padding:clamp(28px,3.4vw,44px);display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;box-shadow:0 22px 48px rgba(8,22,39,.3)}
+.scamhelp h3{font-family:var(--display);color:#fff;font-size:clamp(1.3rem,2.2vw,1.72rem);margin:0 0 .4em}
+.scamhelp p{color:#c3d0de;font-size:.95rem;line-height:1.64;margin:0;max-width:68ch}
+.scamhelp .mailto{display:block;margin-top:1em;font-family:var(--sans);font-size:.84rem;color:var(--gold-soft)}
+.scamhelp .mailto b{color:#fff;letter-spacing:.02em}
+@media(max-width:820px){.scamhelp{grid-template-columns:1fr}}
+
+/* ---------- payment badges ---------- */
+.pay-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:1.3em}
+.pay-row .pay-label{font-family:var(--sans);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600;width:100%;margin-bottom:.15em}
+.pay-badge{display:inline-flex;align-items:center;justify-content:center;height:34px;padding:0 12px;background:#fff;border:1px solid var(--line);border-radius:5px;box-shadow:0 2px 6px rgba(13,33,54,.07)}
+.pay-badge svg{height:18px;width:auto;display:block}
+.hero .pay-row .pay-label{color:var(--gold-bright)}
+.hero .pay-badge{background:rgba(255,255,255,.97);border-color:rgba(200,163,74,.45)}
+.pay-secure{font-family:var(--sans);font-size:.71rem;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
+.hero .pay-secure{color:#a9b8c8}
+.pay-secure svg{width:13px;height:13px;flex:none}
+.wm-pp{font-family:var(--sans);font-size:1.02rem;font-style:italic;font-weight:700;letter-spacing:-.02em;line-height:1}
+.wm-pp i{color:#003087;font-style:italic}
+.wm-pp b{color:#009cde}
+.wm-visa{font-family:var(--sans);font-size:1.02rem;font-style:italic;font-weight:800;letter-spacing:.04em;color:#1a1f71;line-height:1}
+
+/* ---------- guarantee ---------- */
+.guarantee{display:flex;gap:24px;align-items:center;background:#fff;border:2px solid var(--gold);border-radius:10px;padding:26px 28px;margin-top:28px}
+.guarantee .seal{flex:none;width:66px;height:66px}
+.guarantee h3{font-size:1.22rem;margin:0 0 .3em}
+.guarantee p{margin:0;font-size:.95rem;color:var(--muted);max-width:50em}
+.g-note{font-family:var(--sans);font-size:.72rem;color:var(--muted);margin-top:12px;display:block}
+.trust span.badge-gold{background:rgba(168,129,47,.2);border-color:var(--gold-bright);color:var(--gold-soft);display:inline-flex;align-items:center;gap:6px}
+.trust span.badge-gold svg{width:13px;height:13px;flex:none}
+
+/* ---------- press / media strip ---------- */
+/* ---- VIDEO / AWARENESS ---- */
+.vid-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.vid-card{background:rgba(255,255,255,.035);border:1px solid rgba(200,163,74,.28);border-radius:10px;overflow:hidden;box-shadow:0 18px 40px rgba(0,0,0,.28);transition:border-color .2s,box-shadow .2s,transform .2s}
+.vid-card:hover{border-color:var(--gold-bright);box-shadow:0 26px 54px rgba(0,0,0,.4);transform:translateY(-3px)}
+.vid-frame{position:relative;aspect-ratio:16/9;background:#08131f;cursor:pointer;overflow:hidden}
+.vid-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.vid-frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,17,29,.1),rgba(6,17,29,.55));pointer-events:none}
+.vid-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:3}
+.vid-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:var(--gold);color:var(--navy-deep);display:flex;align-items:center;justify-content:center;font-size:1.25rem;padding-left:5px;box-shadow:0 12px 28px rgba(0,0,0,.45);z-index:2;transition:transform .2s,background .2s}
+.vid-card:hover .vid-play{transform:translate(-50%,-50%) scale(1.08);background:var(--gold-bright)}
+.vid-body{padding:19px 21px 23px}
+.vid-body h3{font-family:var(--display);font-size:1.08rem;color:#fff;margin:0 0 .5em;line-height:1.35}
+.vid-body p{font-family:var(--sans);font-size:.86rem;line-height:1.62;color:#b9c8d8;margin:0}
+.vid-src{font-family:var(--sans);font-size:.67rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-top:.9em;display:block}
+.vid-note{margin-top:2em;font-family:var(--sans);font-size:.78rem;line-height:1.6;color:#a8b8ca;border-left:2px solid var(--gold);padding-left:14px}
+@media(max-width:860px){.vid-grid{grid-template-columns:1fr}}
+.press-strip{padding:56px 0}
+.press-head{text-align:center;margin-bottom:2.4em}
+.press-h{font-family:var(--display);font-size:clamp(1.3rem,2.3vw,1.8rem);color:var(--navy);margin:.25em 0 .55em}
+.press-note{font-family:var(--sans);font-size:.8rem;color:var(--muted);max-width:64ch;margin:0 auto;line-height:1.62}
+.press-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.press-logo{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;min-height:136px;text-align:center;transition:border-color .2s,box-shadow .2s}
+.press-logo:hover{border-color:var(--gold-bright);box-shadow:0 14px 30px rgba(13,33,54,.12)}
+.press-logo .wm{font-family:var(--display);font-weight:700;font-size:1.02rem;line-height:1.18;color:var(--navy)}
+.press-logo .top{font-family:var(--sans);font-size:.63rem;line-height:1.38;color:var(--muted)}
+.press-logo .dom{font-family:var(--sans);font-size:.6rem;letter-spacing:.04em;color:var(--gold);border-top:1px solid var(--line);padding-top:7px;width:100%}
+@media(max-width:900px){.press-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.press-grid{grid-template-columns:repeat(2,1fr)}.press-logo{min-height:122px;padding:14px 10px}}
+
+/* ---------- pricing extras ---------- */
+.pr-urgency{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:.15em 0 0;max-width:54em}
+.pr-urgency b{color:var(--red)}
+.incl-wrap{margin-top:26px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px 28px}
+.incl-h{font-family:var(--display);font-size:1.18rem;color:var(--navy);margin:0 0 .85em}
+.incl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(232px,1fr));gap:11px;list-style:none;margin:0;padding:0}
+.incl-grid li{position:relative;padding-left:26px;font-family:var(--sans);font-size:.9rem;color:#2c313a;line-height:1.55}
+.incl-grid li::before{content:"\2713";position:absolute;left:0;top:-1px;color:var(--gold);font-weight:700}
+.trust-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:22px}
+.trust-row span{font-family:var(--sans);font-size:.76rem;font-weight:600;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:999px;padding:.42rem .9rem;display:inline-flex;align-items:center;gap:7px}
+.trust-row svg{width:14px;height:14px;flex:none}
+
+/* ---------- final CTA ---------- */
+.cta-final{background:var(--navy-deep);color:#dbe5ef;padding:70px 0;text-align:center}
+.cta-final .kicker{color:var(--gold-bright)}
+.cta-final h2{font-family:var(--display);font-size:clamp(1.7rem,3vw,2.4rem);color:#fff;margin:.25em 0 .4em}
+.cta-final .cf-sub{font-family:var(--serif);font-size:1.06rem;color:#c6d3e1;max-width:52ch;margin:0 auto 1.9em}
+.cf-btns{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;align-items:center}
+.cf-note{font-family:var(--sans);font-size:.76rem;color:var(--gold-bright);margin-top:1.4em}
+@media(max-width:640px){.incl-wrap{padding:20px 18px}}
+
+/* ---------- contact ---------- */
+.contact-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:46px;align-items:start}
+.contact-line{display:flex;align-items:flex-start;gap:13px;margin-bottom:20px}
+.contact-line .ic{font-family:var(--display);color:var(--gold-bright);font-size:1.15rem;line-height:1.2;flex:none}
+.contact-line .lbl{font-family:var(--sans);font-size:.66rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:.2em}
+.contact-line .val{color:#e2e9f1;font-size:1rem;word-break:break-word}
+.contact-card{background:rgba(255,255,255,.05);border:1px solid rgba(200,163,74,.4);border-radius:10px;padding:28px}
+.contact-card .fld{margin-bottom:16px}
+.contact-card label{display:block;font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-bright);margin-bottom:.45em}
+.contact-card input,.contact-card textarea{width:100%;font-family:var(--sans);font-size:1rem;padding:.8rem 1rem;border-radius:6px;border:1px solid rgba(240,227,194,.35);background:#fff;color:var(--ink)}
+.contact-card textarea{min-height:118px;resize:vertical}
+.contact-card input:focus,.contact-card textarea:focus{outline:2px solid var(--gold-bright);outline-offset:1px}
+.sec.navy .sample-note{background:rgba(255,255,255,.08);border-color:rgba(200,163,74,.45);color:var(--gold-soft)}
+
+/* ---------- legal ---------- */
+.legal-grid{display:grid;grid-template-columns:1fr;gap:20px;margin-top:2em}
+.legal-block{background:#fff;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:8px;padding:28px 30px;scroll-margin-top:92px}
+.legal-block h3{font-size:1.34rem;margin-bottom:.7em;padding-bottom:.5em;border-bottom:1px solid var(--line)}
+.legal-block h4{font-family:var(--sans);font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin:1.35em 0 .5em}
+.legal-block p,.legal-block li{font-size:.95rem;color:var(--muted)}
+.legal-block ul{padding-left:1.2em;margin:.4em 0 .9em}
+.legal-block li{margin-bottom:.32em}
+.legal-meta{font-family:var(--sans);font-size:.73rem;color:var(--muted);margin-top:1.2em;padding-top:.9em;border-top:1px solid var(--line)}
+
+/* ---------- responsive ---------- */
+@media (max-width:900px){
+  .hero-grid,.grid2,.lead-grid,.band .wrap,.author-profile,.contact-grid,.cover2-block{grid-template-columns:1fr;gap:34px}
+  .cover2-img img{max-width:260px;margin:0 auto}
+  .author-photo{max-width:280px;margin:0 auto}
+  .guarantee{flex-direction:column;text-align:center;gap:14px}
+  .band-txt{padding:40px 24px}
+  .band-img img{max-height:280px}
+  .price-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr;gap:26px}
+  .cover-wrap{order:-1}
+  .lead-grid .imgbox{order:-1}
+  .sec{padding:58px 0}
+}
+@media (max-width:560px){
+  body{font-size:17px}
+  .brand .t{font-size:.92rem}
+  .brand .s{display:none}
+  .hdr-cta{padding:.5rem .72rem;font-size:.76rem;white-space:nowrap}
+  .site-header .wrap{gap:8px}
+  .hero-cta{flex-direction:column;align-items:stretch}
+  .hero-cta .btn{width:100%;text-align:center}
+  .form-card{padding:22px}
+  .contact-card,.legal-block{padding:20px}
+  .legal-block h3{font-size:1.18rem}
+}
+/* ===== Testimonials ("What readers say") ===== */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.tst-intro{font-size:1.12rem;line-height:1.7;color:var(--muted);max-width:46em;margin:0 0 1.2em}
+.tst-note{font-family:var(--sans);font-size:.8rem;line-height:1.65;color:var(--red);background:#f9efee;border:1px solid #edcfcd;border-left:3px solid var(--red);border-radius:6px;padding:13px 17px;margin:0 0 2.2em;max-width:62em}
+.tst-note b{color:var(--red)}
+.tst-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:22px}
+.tst-card{background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:8px;padding:26px 28px 28px;display:flex;flex-direction:column}
+.tst-head{display:flex;align-items:center;gap:14px;position:relative;margin-bottom:15px}
+.tst-av{flex:0 0 auto;width:52px;height:52px;border-radius:50%;background:var(--navy);color:var(--gold-soft);font-family:var(--display);font-size:1.5rem;font-weight:700;line-height:1;display:flex;align-items:center;justify-content:center;border:1px solid rgba(168,129,47,.5)}
+.tst-meta{flex:1 1 auto;min-width:0}
+.tst-name{font-family:var(--display);font-size:1.16rem;color:var(--navy);margin:0}
+.tst-where{font-family:var(--sans);font-size:.79rem;color:var(--muted);margin:.3em 0 0}
+.tst-stars{flex:0 0 auto;color:var(--gold);font-size:1rem;letter-spacing:.14em;white-space:nowrap}
+.tst-row{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 17px}
+.tst-tag{font-family:var(--sans);font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--navy);background:var(--paper-alt);border:1px solid var(--line);border-radius:999px;padding:.34rem .72rem}
+.tst-aud{font-family:var(--sans);font-size:.68rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(168,129,47,.45);border-radius:999px;padding:.34rem .72rem}
+.tst-story{font-size:1.1rem;line-height:1.78;color:var(--ink);margin:0 0 22px}
+.tst-quote{font-family:var(--display);font-size:1.4rem;line-height:1.42;font-style:italic;color:var(--navy);border-left:3px solid var(--gold);padding:.15em 0 .15em 20px;margin:auto 0 0}
+.tst-all{text-align:center;margin-top:2.4em}
+@media (max-width:900px){.tst-grid{grid-template-columns:1fr}.tst-quote{font-size:1.26rem}}
+
+
+/* ===== testimonials page specifics ===== */
+.tp-back{display:inline-flex;align-items:center;gap:.45em;font-family:var(--sans);font-size:.82rem;font-weight:600;color:var(--gold-bright);margin-top:1.4em}
+.tp-back:hover{color:var(--gold-soft)}
+.tst-grid.tp-one{grid-template-columns:1fr;max-width:960px;margin:0 auto}
+.tst-grid.tp-one .tst-story{font-size:1.16rem;line-height:1.8}
+.tst-grid.tp-one .tst-quote{font-size:1.5rem}
+.tp-hero-cta{margin-top:1.6em}
+.tp-footline{font-family:var(--sans);font-size:.84rem;color:#a9b8c8;margin-top:1.1em}
+</style>
+</head>
+<body>
+
+<!-- ============ STICKY HEADER ============ -->
+<header class="site-header">
+  <div class="wrap">
+    <a href="../#hero" class="brand">
+      <span class="t" data-i18n="nav.brand">Non Farti Ingannare</span>
+      <span class="s" data-i18n="nav.tagline">Benito Russo &middot; Golden Vista Global</span>
+    </a>
+    <nav class="mainnav" aria-label="Sezioni / Sections">
+      <a href="#stories" data-i18n="tp.nav1">Le storie</a>
+      <a href="../#inside" data-i18n="nav.m1">Il libro</a>
+      <a href="../#video" data-i18n="nav.m8">Video</a>
+      <a href="../#free" data-i18n="nav.m4">Anteprima gratis</a>
+      <a href="../#pricing" data-i18n="nav.m5">Prezzo</a>
+      <a href="../#faq" data-i18n="nav.m6">FAQ</a>
+      <a href="../#contact" data-i18n="nav.m7">Contatti</a>
+    </nav>
+    <div class="langswitch" role="group" aria-label="Lingua / Language">
+      <button type="button" data-lang="it" class="active">IT</button>
+      <button type="button" data-lang="en">EN</button>
+    </div>
+    <a href="#" data-buy="ebook" class="btn btn-gold hdr-cta" data-i18n="tp.buy">Compra &mdash; &euro;6</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="wrap">
+    <p class="eyebrow" data-i18n="tp.kicker">Cosa dicono i lettori</p>
+    <h1 data-i18n="tp.h1">Cinque lettori, cinque truffe riconosciute in tempo.</h1>
+    <p class="sub" data-i18n="tp.sub">Queste sono le loro storie, raccontate con le loro parole. Ogni storia corrisponde a un capitolo preciso della guida completa &mdash; e ognuna di queste persone ha evitato la truffa perch&eacute; aveva letto quel capitolo prima che la truffa arrivasse.</p>
+    <div class="hero-cta tp-hero-cta">
+      <a href="#" data-buy="ebook" class="btn btn-gold" data-i18n="hero.cta1">Compra l&rsquo;ebook &mdash; &euro;6</a>
+      <a href="#" data-sample class="btn btn-ghost" data-i18n="hero.cta2">Anteprima gratuita</a>
+      <span class="cta-note" data-i18n="hero.cta1note">Prezzo lancio &middot; poi &euro;7,99 &middot; anteprima gratuita inclusa</span>
+    </div>
+    <a class="tp-back" href="../#hero">&larr; <span data-i18n="tp.back">Torna alla pagina del libro</span></a>
+  </div>
+</section>
+
+<!-- ============ THE FIVE STORIES ============ -->
+<section class="sec alt" id="stories">
+  <div class="wrap">
+    <p class="kicker" data-i18n="tp.allkicker">Le storie complete</p>
+    <h2 class="sec-t" data-i18n="tp.allh">Cinque storie per intero</h2>
+    <p class="tst-note" data-i18n-html="tst.note"><b>Nota importante:</b> queste testimonianze sono illustrative e non sono state verificate. Prima della pubblicazione devono essere sostituite con recensioni reali di lettori, con consenso documentato all&#8217;uso del nome e del racconto, in linea con il Codice del Consumo (D.Lgs. 206/2005, artt. 20&#8211;23 sulle pratiche commerciali scorrette). Non presentare questi testi come recensioni autentiche.</p>
+    <div class="tst-grid tp-one">
+      <article class="tst-card" id="storia-1">
+        <div class="tst-head">
+          <span class="tst-av" aria-hidden="true">G</span>
+          <div class="tst-meta">
+            <h3 class="tst-name" data-i18n="tst.c1n">Giuseppe, 67 anni</h3>
+            <p class="tst-where" data-i18n="tst.c1w">Insegnante in pensione &#183; Torino</p>
+          </div>
+          <div class="tst-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <span class="sr-only" data-i18n="tst.rate5">Valutazione: 5 stelle su 5</span>
+        </div>
+        <div class="tst-row">
+          <span class="tst-tag" data-i18n="tst.c1t">Proteggere te stesso</span>
+          <span class="tst-aud" data-i18n="tst.c1a">45&#8211;65+</span>
+        </div>
+        <p class="tst-story" data-i18n="tst.c1s">Ho sempre fatto attenzione ai soldi, ed &#232; proprio per questo che il messaggio mi ha colto di sorpresa. Sembrava la mia banca: stesso logo, stesso blu, un SMS che diceva che il mio conto era stato sospeso e che dovevo confermare i dati entro due ore o avrei perso l&#8217;accesso. Avevo gi&#224; la mano sulla tastiera. Quello che mi ha fermato &#232; stato un capitolo letto la settimana prima: quello sull&#8217;urgenza. Il libro dice che la fretta &#232; la truffa; una banca vera non ti d&#224; mai due ore di tempo per SMS. Ho chiuso il messaggio, ho chiamato il numero sul retro della carta e l&#8217;operatore mi ha detto che era la quarta segnalazione della mattina. Ho 67 anni e credevo di saperla pi&#249; lunga. Adesso leggo lo schema prima di leggere il messaggio.</p>
+        <blockquote class="tst-quote" data-i18n="tst.c1q">La fretta &#232; la truffa. Una banca vera non ti d&#224; mai due ore di tempo per SMS.</blockquote>
+      </article>
+      <article class="tst-card" id="storia-2">
+        <div class="tst-head">
+          <span class="tst-av" aria-hidden="true">C</span>
+          <div class="tst-meta">
+            <h3 class="tst-name" data-i18n="tst.c2n">Chiara, 43 anni</h3>
+            <p class="tst-where" data-i18n="tst.c2w">Mamma che lavora &#183; Milano</p>
+          </div>
+          <div class="tst-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <span class="sr-only" data-i18n="tst.rate5">Valutazione: 5 stelle su 5</span>
+        </div>
+        <div class="tst-row">
+          <span class="tst-tag" data-i18n="tst.c2t">Proteggere i genitori</span>
+          <span class="tst-aud" data-i18n="tst.c2a">30&#8211;50</span>
+        </div>
+        <p class="tst-story" data-i18n="tst.c2s">Ho comprato il libro per mia madre, non per me. Ha 74 anni e vive sola, e aveva iniziato a ricevere chiamate da un uomo che diceva di essere dell&#8217;antifrode della sua banca e le chiedeva di spostare i soldi su un &#171;conto sicuro&#187;. Si vergognava a dirmelo. Pensava di essere stupida. L&#8217;abbiamo letto insieme in due sere. Il capitolo sulle truffe telefoniche le ha dato le parole che non aveva: ha capito che il &#171;conto sicuro&#187; non esiste, che nessuna banca vera ti chiede di spostare i tuoi soldi e che riagganciare non &#232; maleducazione, &#232; la cosa giusta. Due settimane dopo ha ricevuto la stessa chiamata. Ha riagganciato e ha chiamato me. Quella telefonata &#232; valsa cento volte il prezzo del libro.</p>
+        <blockquote class="tst-quote" data-i18n="tst.c2q">Il &#171;conto sicuro&#187; non esiste. Riagganciare non &#232; maleducazione: &#232; la cosa giusta.</blockquote>
+      </article>
+      <article class="tst-card" id="storia-3">
+        <div class="tst-head">
+          <span class="tst-av" aria-hidden="true">L</span>
+          <div class="tst-meta">
+            <h3 class="tst-name" data-i18n="tst.c3n">Luca, 29 anni</h3>
+            <p class="tst-where" data-i18n="tst.c3w">Giovane professionista &#183; Roma</p>
+          </div>
+          <div class="tst-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <span class="sr-only" data-i18n="tst.rate5">Valutazione: 5 stelle su 5</span>
+        </div>
+        <div class="tst-row">
+          <span class="tst-tag" data-i18n="tst.c3t">Proteggere te stesso</span>
+          <span class="tst-aud" data-i18n="tst.c3a">Nativo digitale</span>
+        </div>
+        <p class="tst-story" data-i18n="tst.c3s">Sono quello a cui tutti chiedono di sistemare il telefono, quindi credevo davvero di essere immune. Poi ho conosciuto &#171;Sofia&#187; su un&#8217;app di incontri. Era intelligente, divertente e dopo tre settimane mi ha mostrato il suo conto trading: una piattaforma crypto con grafici bellissimi e un profitto che cresceva ogni giorno. Voleva che entrassi anch&#8217;io. Ho messo 500 &#8364; per provare. Il numero &#232; salito. Mi ha chiesto di aggiungerne altri. Il libro ha un nome esatto per questo: pig butchering. Leggere quel capitolo &#232; stato come guardare la registrazione del mio ultimo mese. La piattaforma era finta, i profitti erano pixel e &#171;Sofia&#187; era un copione. Non ho ritirato niente perch&#233; non c&#8217;era niente da ritirare: ho perso 500 &#8364; e li considero la lezione pi&#249; economica della mia vita. Essere bravo con la tecnologia non &#232; la stessa cosa che essere bravo con chi ti mente.</p>
+        <blockquote class="tst-quote" data-i18n="tst.c3q">La piattaforma era finta, i profitti erano pixel e &#171;Sofia&#187; era un copione.</blockquote>
+      </article>
+      <article class="tst-card" id="storia-4">
+        <div class="tst-head">
+          <span class="tst-av" aria-hidden="true">F</span>
+          <div class="tst-meta">
+            <h3 class="tst-name" data-i18n="tst.c4n">Federica, 51 anni</h3>
+            <p class="tst-where" data-i18n="tst.c4w">Titolare di una piccola impresa &#183; Bologna</p>
+          </div>
+          <div class="tst-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;</div>
+          <span class="sr-only" data-i18n="tst.rate4">Valutazione: 4 stelle su 5</span>
+        </div>
+        <div class="tst-row">
+          <span class="tst-tag" data-i18n="tst.c4t">Proteggere la tua azienda</span>
+          <span class="tst-aud" data-i18n="tst.c4a">Imprese e partite IVA</span>
+        </div>
+        <p class="tst-story" data-i18n="tst.c4s">Ho un piccolo laboratorio di ceramiche e ogni mese pago i fornitori con bonifico. Una mattina &#232; arrivata un&#8217;email da un fornitore con cui lavoro da sei anni: mi diceva che le sue coordinate bancarie erano cambiate e mi chiedeva di inviare la fattura successiva &#8212; 4.300 &#8364; &#8212; su un nuovo IBAN. L&#8217;email era perfetta. La firma, il tono, persino il modo di salutare. Avevo il bonifico pronto da inviare. &#200; stato il capitolo sulle truffe nelle fatture a fermarmi. Dice: non fidarti mai di nuove coordinate bancarie che arrivano per email &#8212; chiama il numero che hai gi&#224;, non quello nel messaggio. Ho chiamato il fornitore. Non ne sapeva nulla. Qualcuno leggeva le nostre email da settimane. Ora nel laboratorio ho una regola: ogni cambio di IBAN si conferma a voce, sempre. Mi &#232; costata una telefonata imbarazzante salvare 4.300 &#8364;.</p>
+        <blockquote class="tst-quote" data-i18n="tst.c4q">Non fidarti mai di nuove coordinate bancarie che arrivano per email. Chiama il numero che hai gi&#224;.</blockquote>
+      </article>
+      <article class="tst-card" id="storia-5">
+        <div class="tst-head">
+          <span class="tst-av" aria-hidden="true">A</span>
+          <div class="tst-meta">
+            <h3 class="tst-name" data-i18n="tst.c5n">Antonio, 58 anni</h3>
+            <p class="tst-where" data-i18n="tst.c5w">Magazziniere &#183; Napoli</p>
+          </div>
+          <div class="tst-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <span class="sr-only" data-i18n="tst.rate5">Valutazione: 5 stelle su 5</span>
+        </div>
+        <div class="tst-row">
+          <span class="tst-tag" data-i18n="tst.c5t">Ci &#232; quasi cascato</span>
+          <span class="tst-aud" data-i18n="tst.c5a">50&#8211;65</span>
+        </div>
+        <p class="tst-story" data-i18n="tst.c5s">Cercavo uno scooter usato e ne ho trovato uno a un prezzo quasi troppo bello: modello 2021, pochi chilometri, 1.900 &#8364;. Il venditore diceva di essere all&#8217;estero per lavoro e che lo scooter era presso una ditta di spedizioni; dovevo solo pagare un acconto di 400 &#8364; e il resto alla consegna. Mi ha mandato un link di tracciamento. Sembrava vero. Ero a un clic dall&#8217;inviare i soldi. Mia figlia mi aveva regalato il libro per il compleanno e l&#8217;avevo solo sfogliato. Quella sera ho letto davvero il capitolo sulle truffe nei marketplace. C&#8217;era tutto, parola per parola: il venditore all&#8217;estero, la ditta di spedizioni, l&#8217;acconto, la pagina di tracciamento finta. Mi sono fermato. Ho cercato le foto e ho trovato lo stesso scooter in altre tre citt&#224;. Non c&#8217;era nessuno scooter. Non c&#8217;era nessun venditore. C&#8217;era solo un buco da 400 &#8364; che mi aspettava. Dopo quella volta ho letto il libro sul serio.</p>
+        <blockquote class="tst-quote" data-i18n="tst.c5q">Non c&#8217;era nessuno scooter. Non c&#8217;era nessun venditore. C&#8217;era solo un buco da 400 &#8364; che mi aspettava.</blockquote>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLOSING CTA (two clear choices) ============ -->
+<section class="cta-final" id="choose">
+  <div class="wrap">
+    <p class="kicker" data-i18n="cf.kicker">Scegli da dove iniziare</p>
+    <h2 data-i18n="tp.ctah">La prossima storia pu&ograve; essere la tua &mdash; o quella di chi ami.</h2>
+    <p class="cf-sub" data-i18n="tp.ctap">La guida completa a &euro;6, con garanzia di 30 giorni, oppure l&rsquo;anteprima gratuita prima di decidere.</p>
+    <div class="cf-btns">
+      <a href="#" data-buy="ebook" class="btn btn-gold" data-i18n="hero.cta1">Compra l&rsquo;ebook &mdash; &euro;6</a>
+      <a href="#" data-sample class="btn btn-ghost" data-i18n="hero.cta2">Anteprima gratuita</a>
+    </div>
+    <p class="cf-note" data-i18n="cf.note">Garanzia 30 giorni &middot; pagamento sicuro &middot; accesso immediato</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-btns">
+      <a href="#" data-buy="ebook" class="btn btn-gold" data-i18n="hero.cta1">Compra l&rsquo;ebook &mdash; &euro;6</a>
+      <a href="../#free" class="btn btn-ghost" data-i18n="foot.sample">Anteprima gratuita</a>
+    </div>
+    <div class="foot-grid">
+      <div>
+        <h4 data-i18n="foot.title">Non Farti Ingannare</h4>
+        <p data-i18n="foot.pub">Pubblicato da Golden Vista Global</p>
+        <p data-i18n="foot.pub2">Un manuale pratico per riconoscere, fermare e denunciare le truffe online.</p>
+      </div>
+      <div>
+        <h4 data-i18n="tp.foot">Testimonianze</h4>
+        <ul class="foot-links">
+          <li><a href="#storia-1" data-i18n="tst.c1n">Giuseppe, 67 anni</a></li>
+          <li><a href="#storia-2" data-i18n="tst.c2n">Chiara, 43 anni</a></li>
+          <li><a href="#storia-3" data-i18n="tst.c3n">Luca, 29 anni</a></li>
+          <li><a href="#storia-4" data-i18n="tst.c4n">Federica, 51 anni</a></li>
+          <li><a href="#storia-5" data-i18n="tst.c5n">Antonio, 58 anni</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="foot.navhead">Sezioni</h4>
+        <ul class="foot-links">
+          <li><a href="../#inside" data-i18n="nav.m1">Il libro</a></li>
+          <li><a href="../#problem" data-i18n="nav.m2">Perch&eacute; conta</a></li>
+          <li><a href="../#author" data-i18n="nav.m3">L&rsquo;autore</a></li>
+          <li><a href="../#video" data-i18n="nav.m8">Video</a></li>
+          <li><a href="../#pricing" data-i18n="nav.m5">Prezzo</a></li>
+          <li><a href="../#faq" data-i18n="nav.m6">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="foot.legal">Informazioni</h4>
+        <ul class="foot-links">
+          <li><a href="../#privacy" data-i18n="foot.privacy">Informativa privacy</a></li>
+          <li><a href="../#terms" data-i18n="foot.terms">Termini e condizioni</a></li>
+          <li><a href="../#refund" data-i18n="foot.refund">Politica di rimborso</a></li>
+          <li><a href="../#contact" data-i18n="foot.contactlink">Modulo di contatto</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="tp-footline"><a href="../#hero">&larr; <span data-i18n="tp.back">Torna alla pagina del libro</span></a></p>
+    <div class="foot-bottom">
+      <span data-i18n="foot.copy">&copy; 2026 Benito Russo. Tutti i diritti riservati.</span>
+      <div class="langswitch" role="group" aria-label="Lingua / Language">
+        <button type="button" data-lang="it" class="active">IT</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+var I18N = {
+  it: {
+    "meta.title": "Cosa dicono i lettori \u2014 Non Farti Ingannare | Golden Vista Global",
+    "meta.desc": "Cinque storie di lettori che hanno riconosciuto la truffa in tempo, raccontate con le loro parole. Dal libro Non Farti Ingannare di Benito Russo.",
+    "nav.brand": "Non Farti Ingannare",
+    "nav.tagline": "Benito Russo \u00b7 Golden Vista Global",
+    "tp.back": "Torna alla pagina del libro",
+    "tp.kicker": "Cosa dicono i lettori",
+    "tp.h1": "Cinque lettori, cinque truffe riconosciute in tempo.",
+    "tp.sub": "Queste sono le loro storie, raccontate con le loro parole. Ogni storia corrisponde a un capitolo preciso della guida completa \u2014 e ognuna di queste persone ha evitato la truffa perch\u00e9 aveva letto quel capitolo prima che la truffa arrivasse.",
+    "tp.allkicker": "Le storie complete",
+    "tp.allh": "Cinque storie per intero",
+    "tp.nav1": "Le storie",
+    "tp.buy": "Compra \u2014 \u20ac6",
+    "tp.foot": "Testimonianze",
+    "tp.footback": "Pagina del libro",
+    "tp.ctah": "La prossima storia pu\u00f2 essere la tua \u2014 o quella di chi ami.",
+    "tp.ctap": "La guida completa a \u20ac6, con garanzia di 30 giorni, oppure l\u2019anteprima gratuita prima di decidere.",
+    "tst.kicker": "Cosa dicono i lettori",
+    "tst.h2": "Hanno smesso di farsi ingannare. Ecco cosa raccontano.",
+    "tst.intro": "Cinque storie di persone che hanno riconosciuto la truffa in tempo, raccontate con le loro parole. Ogni storia rimanda a un capitolo preciso della guida completa.",
+    "tst.note": "<b>Nota importante:</b> queste testimonianze sono illustrative e non sono state verificate. Prima della pubblicazione devono essere sostituite con recensioni reali di lettori, con consenso documentato all\u2019uso del nome e del racconto, in linea con il Codice del Consumo (D.Lgs. 206/2005, artt. 20\u201323 sulle pratiche commerciali scorrette). Non presentare questi testi come recensioni autentiche.",
+    "tst.allbtn": "Leggi tutte e cinque le storie in dettaglio",
+    "tst.rate5": "Valutazione: 5 stelle su 5",
+    "tst.rate4": "Valutazione: 4 stelle su 5",
+    "tst.c1n": "Giuseppe, 67 anni",
+    "tst.c1w": "Insegnante in pensione \u00b7 Torino",
+    "tst.c1t": "Proteggere te stesso",
+    "tst.c1a": "45\u201365+",
+    "tst.c1s": "Ho sempre fatto attenzione ai soldi, ed \u00e8 proprio per questo che il messaggio mi ha colto di sorpresa. Sembrava la mia banca: stesso logo, stesso blu, un SMS che diceva che il mio conto era stato sospeso e che dovevo confermare i dati entro due ore o avrei perso l\u2019accesso. Avevo gi\u00e0 la mano sulla tastiera. Quello che mi ha fermato \u00e8 stato un capitolo letto la settimana prima: quello sull\u2019urgenza. Il libro dice che la fretta \u00e8 la truffa; una banca vera non ti d\u00e0 mai due ore di tempo per SMS. Ho chiuso il messaggio, ho chiamato il numero sul retro della carta e l\u2019operatore mi ha detto che era la quarta segnalazione della mattina. Ho 67 anni e credevo di saperla pi\u00f9 lunga. Adesso leggo lo schema prima di leggere il messaggio.",
+    "tst.c1q": "La fretta \u00e8 la truffa. Una banca vera non ti d\u00e0 mai due ore di tempo per SMS.",
+    "tst.c2n": "Chiara, 43 anni",
+    "tst.c2w": "Mamma che lavora \u00b7 Milano",
+    "tst.c2t": "Proteggere i genitori",
+    "tst.c2a": "30\u201350",
+    "tst.c2s": "Ho comprato il libro per mia madre, non per me. Ha 74 anni e vive sola, e aveva iniziato a ricevere chiamate da un uomo che diceva di essere dell\u2019antifrode della sua banca e le chiedeva di spostare i soldi su un \u00abconto sicuro\u00bb. Si vergognava a dirmelo. Pensava di essere stupida. L\u2019abbiamo letto insieme in due sere. Il capitolo sulle truffe telefoniche le ha dato le parole che non aveva: ha capito che il \u00abconto sicuro\u00bb non esiste, che nessuna banca vera ti chiede di spostare i tuoi soldi e che riagganciare non \u00e8 maleducazione, \u00e8 la cosa giusta. Due settimane dopo ha ricevuto la stessa chiamata. Ha riagganciato e ha chiamato me. Quella telefonata \u00e8 valsa cento volte il prezzo del libro.",
+    "tst.c2q": "Il \u00abconto sicuro\u00bb non esiste. Riagganciare non \u00e8 maleducazione: \u00e8 la cosa giusta.",
+    "tst.c3n": "Luca, 29 anni",
+    "tst.c3w": "Giovane professionista \u00b7 Roma",
+    "tst.c3t": "Proteggere te stesso",
+    "tst.c3a": "Nativo digitale",
+    "tst.c3s": "Sono quello a cui tutti chiedono di sistemare il telefono, quindi credevo davvero di essere immune. Poi ho conosciuto \u00abSofia\u00bb su un\u2019app di incontri. Era intelligente, divertente e dopo tre settimane mi ha mostrato il suo conto trading: una piattaforma crypto con grafici bellissimi e un profitto che cresceva ogni giorno. Voleva che entrassi anch\u2019io. Ho messo 500 \u20ac per provare. Il numero \u00e8 salito. Mi ha chiesto di aggiungerne altri. Il libro ha un nome esatto per questo: pig butchering. Leggere quel capitolo \u00e8 stato come guardare la registrazione del mio ultimo mese. La piattaforma era finta, i profitti erano pixel e \u00abSofia\u00bb era un copione. Non ho ritirato niente perch\u00e9 non c\u2019era niente da ritirare: ho perso 500 \u20ac e li considero la lezione pi\u00f9 economica della mia vita. Essere bravo con la tecnologia non \u00e8 la stessa cosa che essere bravo con chi ti mente.",
+    "tst.c3q": "La piattaforma era finta, i profitti erano pixel e \u00abSofia\u00bb era un copione.",
+    "tst.c4n": "Federica, 51 anni",
+    "tst.c4w": "Titolare di una piccola impresa \u00b7 Bologna",
+    "tst.c4t": "Proteggere la tua azienda",
+    "tst.c4a": "Imprese e partite IVA",
+    "tst.c4s": "Ho un piccolo laboratorio di ceramiche e ogni mese pago i fornitori con bonifico. Una mattina \u00e8 arrivata un\u2019email da un fornitore con cui lavoro da sei anni: mi diceva che le sue coordinate bancarie erano cambiate e mi chiedeva di inviare la fattura successiva \u2014 4.300 \u20ac \u2014 su un nuovo IBAN. L\u2019email era perfetta. La firma, il tono, persino il modo di salutare. Avevo il bonifico pronto da inviare. \u00c8 stato il capitolo sulle truffe nelle fatture a fermarmi. Dice: non fidarti mai di nuove coordinate bancarie che arrivano per email \u2014 chiama il numero che hai gi\u00e0, non quello nel messaggio. Ho chiamato il fornitore. Non ne sapeva nulla. Qualcuno leggeva le nostre email da settimane. Ora nel laboratorio ho una regola: ogni cambio di IBAN si conferma a voce, sempre. Mi \u00e8 costata una telefonata imbarazzante salvare 4.300 \u20ac.",
+    "tst.c4q": "Non fidarti mai di nuove coordinate bancarie che arrivano per email. Chiama il numero che hai gi\u00e0.",
+    "tst.c5n": "Antonio, 58 anni",
+    "tst.c5w": "Magazziniere \u00b7 Napoli",
+    "tst.c5t": "Ci \u00e8 quasi cascato",
+    "tst.c5a": "50\u201365",
+    "tst.c5s": "Cercavo uno scooter usato e ne ho trovato uno a un prezzo quasi troppo bello: modello 2021, pochi chilometri, 1.900 \u20ac. Il venditore diceva di essere all\u2019estero per lavoro e che lo scooter era presso una ditta di spedizioni; dovevo solo pagare un acconto di 400 \u20ac e il resto alla consegna. Mi ha mandato un link di tracciamento. Sembrava vero. Ero a un clic dall\u2019inviare i soldi. Mia figlia mi aveva regalato il libro per il compleanno e l\u2019avevo solo sfogliato. Quella sera ho letto davvero il capitolo sulle truffe nei marketplace. C\u2019era tutto, parola per parola: il venditore all\u2019estero, la ditta di spedizioni, l\u2019acconto, la pagina di tracciamento finta. Mi sono fermato. Ho cercato le foto e ho trovato lo stesso scooter in altre tre citt\u00e0. Non c\u2019era nessuno scooter. Non c\u2019era nessun venditore. C\u2019era solo un buco da 400 \u20ac che mi aspettava. Dopo quella volta ho letto il libro sul serio.",
+    "tst.c5q": "Non c\u2019era nessuno scooter. Non c\u2019era nessun venditore. C\u2019era solo un buco da 400 \u20ac che mi aspettava.",
+    "nav.brand": "Non Farti Ingannare",
+    "nav.tagline": "Benito Russo \u00b7 Golden Vista Global",
+    "nav.m1": "Il libro",
+    "nav.m2": "Perch\u00e9 conta",
+    "nav.m3": "L\u2019autore",
+    "nav.m4": "Anteprima",
+    "nav.m5": "Prezzo",
+    "nav.m6": "FAQ",
+    "nav.m7": "Contatti",
+    "nav.m8": "Video",
+    "hero.cta1": "Compra l\u2019ebook \u2014 \u20ac6",
+    "hero.cta2": "Anteprima gratuita",
+    "hero.cta1note": "Prezzo lancio \u00b7 poi \u20ac7,99 \u00b7 anteprima gratuita inclusa",
+    "cf.kicker": "Scegli da dove iniziare",
+    "cf.note": "Garanzia 30 giorni \u00b7 pagamento sicuro \u00b7 accesso immediato",
+    "foot.title": "Non Farti Ingannare",
+    "foot.pub": "Pubblicato da Golden Vista Global",
+    "foot.pub2": "Un manuale pratico per riconoscere, fermare e denunciare le truffe online.",
+    "foot.navhead": "Sezioni",
+    "foot.legal": "Informazioni",
+    "foot.privacy": "Informativa privacy",
+    "foot.terms": "Termini e condizioni",
+    "foot.refund": "Politica di rimborso",
+    "foot.sample": "Anteprima gratuita",
+    "foot.contactlink": "Modulo di contatto",
+    "foot.copy": "\u00a9 2026 Benito Russo. Tutti i diritti riservati.",
+  },
+  en: {
+    "meta.title": "What readers say \u2014 Don\u2019t Get Fooled | Golden Vista Global",
+    "meta.desc": "Five stories from readers who recognised the scam in time, told in their own words. From the book Don\u2019t Get Fooled by Benito Russo.",
+    "nav.brand": "Don\u2019t Get Fooled",
+    "nav.tagline": "Benito Russo \u00b7 Golden Vista Global",
+    "tp.back": "Back to the book page",
+    "tp.kicker": "What readers say",
+    "tp.h1": "Five readers, five scams recognised in time.",
+    "tp.sub": "These are their stories, told in their own words. Each one maps to a specific chapter of the complete guide \u2014 and every one of these people avoided the scam because they had read that chapter before the scam arrived.",
+    "tp.allkicker": "The full stories",
+    "tp.allh": "Five stories in full",
+    "tp.nav1": "The stories",
+    "tp.buy": "Buy \u2014 \u20ac6",
+    "tp.foot": "Testimonials",
+    "tp.footback": "The book page",
+    "tp.ctah": "The next story could be yours \u2014 or that of someone you love.",
+    "tp.ctap": "The complete guide at \u20ac6, with a 30-day guarantee, or the free sample before you decide.",
+    "tst.kicker": "What readers say",
+    "tst.h2": "They stopped being fooled. Here is what they say.",
+    "tst.intro": "Five stories from people who recognised the scam in time, told in their own words. Each one maps to a specific chapter of the complete guide.",
+    "tst.note": "<b>Important note:</b> these testimonials are illustrative and have not been verified. Before publication they must be replaced with genuine reader reviews, with documented consent for the use of the person\u2019s name and story, in line with Italian consumer law (Legislative Decree 206/2005, articles 20\u201323 on unfair commercial practices). Do not present these texts as authentic reviews.",
+    "tst.allbtn": "Read all five stories in detail",
+    "tst.rate5": "Rating: 5 out of 5 stars",
+    "tst.rate4": "Rating: 4 out of 5 stars",
+    "tst.c1n": "Giuseppe, 67",
+    "tst.c1w": "Retired teacher \u00b7 Turin",
+    "tst.c1t": "Protect yourself",
+    "tst.c1a": "45\u201365+",
+    "tst.c1s": "I have been careful with money my whole life, which is exactly why the message caught me off guard. It looked like my bank: same logo, same blue, a text saying my account had been suspended and I had to confirm my details within two hours or lose access. My hand was already on the keyboard. What stopped me was a chapter I had read the week before \u2014 the one about urgency. The book says the pressure is the scam; a real bank never gives you a two-hour deadline by text. I closed the message, called the number on the back of my card, and the operator told me it was the fourth report that morning. I am 67 and I thought I knew better. Now I read the pattern before I read the message.",
+    "tst.c1q": "The pressure is the scam. A real bank never gives you a two-hour deadline by text.",
+    "tst.c2n": "Chiara, 43",
+    "tst.c2w": "Working mother \u00b7 Milan",
+    "tst.c2t": "Protect your parents",
+    "tst.c2a": "30\u201350",
+    "tst.c2s": "I bought the book for my mother, not for me. She is 74 and lives alone, and she had started getting calls from a man who said he was from her bank's fraud team, asking her to move money to a 'safe account'. She was embarrassed to tell me. She thought she was being stupid. We read it together over two evenings. The chapter on phone scams gave her the words she did not have \u2014 she learned that the 'safe account' does not exist, that no real bank ever asks you to move your own money, and that hanging up is not rude, it is correct. Two weeks later she got the same call again. She hung up and called me. That phone call was worth more than the price of the book a hundred times over.",
+    "tst.c2q": "The 'safe account' does not exist. Hanging up is not rude \u2014 it is correct.",
+    "tst.c3n": "Luca, 29",
+    "tst.c3w": "Young professional \u00b7 Rome",
+    "tst.c3t": "Protect yourself",
+    "tst.c3a": "Digital native",
+    "tst.c3s": "I am the person everyone asks to fix their phone, so I genuinely believed I was immune. Then I met 'Sofia' on a dating app. She was smart, funny, and after three weeks she showed me her trading account \u2014 a crypto platform with beautiful charts and a profit that grew every day. She wanted me to join. I put in \u20ac500 to test it. The number went up. She asked me to add more. The book has a name for exactly this: pig butchering. Reading the chapter was like watching a recording of my own last month. The platform was fake, the profits were pixels, and 'Sofia' was a script. I withdrew nothing because there was nothing to withdraw \u2014 I lost the \u20ac500, and I consider that the cheapest lesson of my life. Being good with technology is not the same as being good with people who lie.",
+    "tst.c3q": "The platform was fake, the profits were pixels, and 'Sofia' was a script.",
+    "tst.c4n": "Federica, 51",
+    "tst.c4w": "Small business owner \u00b7 Bologna",
+    "tst.c4t": "Protect your business",
+    "tst.c4a": "Businesses & self-employed",
+    "tst.c4s": "I run a small ceramics workshop and I pay my suppliers by bank transfer every month. One morning an email arrived from a supplier I have used for six years, telling me their bank details had changed and asking me to send the next invoice \u2014 \u20ac4,300 \u2014 to a new IBAN. The email was perfect. The signature, the tone, even the way he signs off. I had the transfer ready to send. The book's chapter on invoice fraud is the reason I did not. It says: never trust new bank details that arrive by email \u2014 call the number you already have, not the one in the message. I called my supplier. He had no idea. Someone had been reading our emails for weeks. I now have a rule in my workshop: any change of IBAN is confirmed by voice, every time. It cost me one awkward phone call to save \u20ac4,300.",
+    "tst.c4q": "Never trust new bank details that arrive by email. Call the number you already have.",
+    "tst.c5n": "Antonio, 58",
+    "tst.c5w": "Warehouse worker \u00b7 Naples",
+    "tst.c5t": "Nearly fell for it",
+    "tst.c5a": "50\u201365",
+    "tst.c5s": "I was looking for a used scooter and I found one at a price that was almost too good \u2014 a 2021 model, low kilometres, \u20ac1,900. The seller said he was abroad for work and that the scooter was with a shipping company; I just had to pay a deposit of \u20ac400 and the rest on delivery. He sent me a tracking link. It looked real. I was one click from sending the money. My daughter had given me the book for my birthday and I had only skimmed it. That night I actually read the chapter on marketplace scams. There it was, word for word: the seller abroad, the shipping company, the deposit, the fake tracking page. I stopped. I searched the photos and found the same scooter listed in three other cities. There was no scooter. There was no seller. There was only a \u20ac400 hole waiting for me. I read the book properly after that.",
+    "tst.c5q": "There was no scooter. There was no seller. There was only a \u20ac400 hole waiting for me.",
+    "nav.brand": "Don\u2019t Get Fooled",
+    "nav.tagline": "Benito Russo \u00b7 Golden Vista Global",
+    "nav.m1": "The book",
+    "nav.m2": "Why it matters",
+    "nav.m3": "The author",
+    "nav.m4": "Sample",
+    "nav.m5": "Pricing",
+    "nav.m6": "FAQ",
+    "nav.m7": "Contact",
+    "nav.m8": "Video",
+    "hero.cta1": "Buy the ebook \u2014 \u20ac6",
+    "hero.cta2": "Free sample",
+    "hero.cta1note": "Launch price \u00b7 then \u20ac7.99 \u00b7 free sample included",
+    "cf.kicker": "Choose where to start",
+    "cf.note": "30-day guarantee \u00b7 secure payment \u00b7 instant access",
+    "foot.title": "Don\u2019t Get Fooled",
+    "foot.pub": "Published by Golden Vista Global",
+    "foot.pub2": "A practical handbook to recognise, stop and report online scams.",
+    "foot.navhead": "Sections",
+    "foot.legal": "Information",
+    "foot.privacy": "Privacy policy",
+    "foot.terms": "Terms & conditions",
+    "foot.refund": "Refund policy",
+    "foot.sample": "Free sample",
+    "foot.contactlink": "Contact form",
+    "foot.copy": "\u00a9 2026 Benito Russo. All rights reserved.",
+  }
+};
+
+/* ---- launch config (same keys as the sales page) ---- */
+var CONTACT_EMAIL     = "info@goldenvistaglobal.com";
+var BUY_URL_EBOOK     = "REPLACE_WITH_YOUR_EBOOK_CHECKOUT_URL";
+/* cross-page links: ALWAYS the newest published version of each page */
+var SAMPLE_PAGE       = "../sample/";
+var TST_PAGE          = "./";
+
+function setLang(lang){
+  var d = I18N[lang] ? I18N[lang] : I18N.it;
+  document.documentElement.setAttribute("lang", lang);
+  var nodes = document.querySelectorAll("[data-i18n]");
+  for (var i = 0; i < nodes.length; i++){
+    var key = nodes[i].getAttribute("data-i18n");
+    if (d[key] !== undefined) nodes[i].textContent = d[key];
+  }
+  var html = document.querySelectorAll("[data-i18n-html]");
+  for (var h = 0; h < html.length; h++){
+    var hk = html[h].getAttribute("data-i18n-html");
+    if (d[hk] !== undefined) html[h].innerHTML = d[hk];
+  }
+  var phs = document.querySelectorAll("[data-i18n-placeholder]");
+  for (var p = 0; p < phs.length; p++){
+    var pk = phs[p].getAttribute("data-i18n-placeholder");
+    if (d[pk] !== undefined) phs[p].setAttribute("placeholder", d[pk]);
+  }
+  var alts = document.querySelectorAll("[data-i18n-alt]");
+  for (var a = 0; a < alts.length; a++){
+    var ak = alts[a].getAttribute("data-i18n-alt");
+    if (d[ak] !== undefined) alts[a].setAttribute("alt", d[ak]);
+  }
+  var t = document.getElementById("pgTitle");
+  if (t && d["meta.title"]) t.textContent = d["meta.title"];
+  var ds = document.getElementById("pgDesc");
+  if (ds && d["meta.desc"]) ds.setAttribute("content", d["meta.desc"]);
+  var btns = document.querySelectorAll(".langswitch button");
+  for (var b = 0; b < btns.length; b++){
+    btns[b].className = (btns[b].getAttribute("data-lang") === lang) ? "active" : "";
+  }
+  try { localStorage.setItem("tstPageLang", lang); } catch(e){}
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+  var saved = "it";
+  try { saved = localStorage.getItem("tstPageLang") || "it"; } catch(e){ saved = "it"; }
+
+  /* Buy buttons point at a real checkout only once one has been supplied; while
+     the value is still a REPLACE_* placeholder the link stays inert so it can
+     never jump to a broken destination. */
+  var buys = document.querySelectorAll("[data-buy]");
+  for (var i = 0; i < buys.length; i++){
+    if (BUY_URL_EBOOK && BUY_URL_EBOOK.indexOf("REPLACE_") !== 0 && BUY_URL_EBOOK.indexOf("#") !== 0){
+      buys[i].setAttribute("href", BUY_URL_EBOOK);
+      buys[i].setAttribute("target", "_blank");
+      buys[i].setAttribute("rel", "noopener");
+    } else {
+      buys[i].setAttribute("href", "#");
+    }
+  }
+  var samples = document.querySelectorAll("[data-sample]");
+  for (var s = 0; s < samples.length; s++) samples[s].setAttribute("href", SAMPLE_PAGE);
+  var shown = document.querySelectorAll(".cfg-email");
+  for (var m = 0; m < shown.length; m++) shown[m].textContent = CONTACT_EMAIL;
+
+  setLang(saved);
+  var btns = document.querySelectorAll(".langswitch button");
+  for (var b = 0; b < btns.length; b++){
+    btns[b].addEventListener("click", function(e){
+      var l = e.currentTarget.getAttribute("data-lang");
+      setLang(l);
+      btns = document.querySelectorAll(".langswitch button");
+    });
+  }
+});
+</script>
+</body>
+<!-- v2 · cross-links repointed to book_sales_v13; og:image updated -->
+</html>
